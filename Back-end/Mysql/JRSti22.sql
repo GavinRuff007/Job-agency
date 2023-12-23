@@ -1,6 +1,6 @@
--- Create the JRSti22 database
-CREATE DATABASE IF NOT EXISTS JRSti22;
-USE JRSti22;
+-- Create the database
+CREATE DATABASE IF NOT EXISTS YourDatabaseName;
+USE YourDatabaseName;
 
 -- Create the User table
 CREATE TABLE IF NOT EXISTS User (
@@ -8,41 +8,16 @@ CREATE TABLE IF NOT EXISTS User (
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
-    phone VARCHAR(15) NOT NULL,
-    address VARCHAR(255) NOT NULL
+    address VARCHAR(255) NOT NULL,
+    phone_number VARCHAR(15) NOT NULL,
+    agile INT NOT NULL,
+    Teamwork INT NOT NULL,
+    knowledge INT NOT NULL,
+    Speed INT NOT NULL,
+    skillEnglish INT NOT NULL,
+    attempt INT NOT NULL,
+    idea INT NOT NULL,
+    cleanCode INT NOT NULL,
+    document INT NOT NULL,
+    polite INT NOT NULL
 );
-
--- Create the Score table
-CREATE TABLE IF NOT EXISTS Score (
-    idSeeker INT,
-    Teamwork INT,
-    Attempt INT,
-    idea INT,
-    Skill_English INT,
-    Knowledge INT,
-    Speed INT,
-    Clean_code INT,
-    Document INT,
-    Agile INT,
-    PRIMARY KEY (idSeeker),
-    FOREIGN KEY (idSeeker) REFERENCES User(id)
-);
-
--- Test Query for find
-SELECT
-    Score.Teamwork,
-    Score.Attempt,
-    Score.idea,
-    Score.Skill_English,
-    Score.Knowledge,
-    Score.Speed,
-    Score.Clean_code,
-    Score.Document,
-    Score.Agile
-FROM
-    Score
-WHERE
-    Score.idSeeker = 1;
-
-
-
