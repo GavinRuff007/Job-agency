@@ -1,6 +1,6 @@
 -- Create the database
-CREATE DATABASE IF NOT EXISTS YourDatabaseName;
-USE YourDatabaseName;
+CREATE DATABASE IF NOT EXISTS JRSti22;
+USE JRSti22;
 
 -- Create the User table
 CREATE TABLE IF NOT EXISTS User (
