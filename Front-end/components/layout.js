@@ -4,7 +4,7 @@ import styles from "./layout.module.css";
 import utilStyles from "@/styles/utils.module.css";
 import Link from "next/link";
 
-const name = "یونس قربانی";
+const name = "سید محمدامین موسوی نسب";
 export const siteTitle = "وبلاگ کوچک من";
 
 export default function Layout({ children, home }) {
