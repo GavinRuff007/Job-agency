@@ -17,6 +17,12 @@
 // };
 
 // module.exports = nextConfig/** @type {import('next').NextConfig} */
+module.exports = {
+  nextauth: {
+    NEXTAUTH_SECRET: "YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXo=",
+    NEXTAUTH_URL: "http://localhost:3000/api/auth",
+  },
+};
 const nextConfig = {
     images: {
       domains: ["platformboy.com"],
@@ -24,4 +30,3 @@ const nextConfig = {
   };
   
   module.exports = nextConfig;
-  
