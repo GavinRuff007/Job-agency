@@ -130,12 +130,12 @@ export default function RegisterPage() {
                                 ثبت نام
                             </button>
                             <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-                                اکانت داری ؟{" "}
+                                اکانت دارید ؟{" "}
                                 <Link
                                     href="/auth/login"
                                     className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                                 >
-                                    وارد شو
+                                    وارد شوید
                                 </Link>
                             </p>
                         </form>

@@ -39,7 +39,7 @@ export default function LoginPage() {
             if (!result?.error) {
                 router.push(callbackUrl);
             } else {
-                setError("نام کاربری یا کلمه عبور اشتباه می باشد دلبندم");
+                setError("نام کاربری یا کلمه عبور اشتباه می باشد دوست عزیز");
             }
         } catch (err) {
             setError(err);

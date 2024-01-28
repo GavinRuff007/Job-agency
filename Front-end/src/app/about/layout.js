@@ -6,3 +6,4 @@ export default function Layout({ children, modal }) {
         </div>
     );
 }
+

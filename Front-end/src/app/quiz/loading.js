@@ -5,7 +5,7 @@ export default function Loading({ count }) {
         <Skeleton
             count={count}
             direction="rtl"
-            duration={2}
+            duration={22222}
             height={50}
             baseColor="#f8f8f8"
             highlightColor="#d8d8d8"

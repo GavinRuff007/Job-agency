@@ -29,7 +29,8 @@ def ClusterIndicesNumpy(clustNum, labels_array): #numpy
 
 #generating a random database of useres so that we demonstrate that our algorithem works.
 center_box = (3, 7) # defines the box that cluster centres are allowed to be in
-standard_dev = 1 # defines the standard deviation of clusters
+standard_dev = 1 # defines the standard deviation of 
+
 X, y = make_blobs(n_samples=500, centers=3, n_features=10, center_box=center_box , cluster_std=standard_dev,random_state=42)
 
 X_ratings, y = make_blobs(n_samples=500, centers=3, n_features=10, center_box=center_box , cluster_std=standard_dev,random_state=42)
